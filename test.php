@@ -45,7 +45,7 @@ $query1=("INSERT INTO submenu(m_submenu_menuid,m_main_menuname,m_submenu_menudes
 <select name="parent">
 <option selected="selected">select parent menu</option>
 <?php
-echo $query=("SELECT * FROM mainmenu");
+echo $query=("SELECT * FROM test");
 while($row= pg_fetch_assoc($result))
 {
  ?>
